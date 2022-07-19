@@ -1,8 +1,14 @@
-import './App.css';
+import NavBar from "components/Navbar";
+import "../src/css/custom.scss";
+import "./App.css";
 
 function App() {
   return (
-   <h1>Hello Dscatalog</h1>
+
+    <>
+    <NavBar/>
+    <h1>DsMeta DSCatalog</h1>
+    </>
   );
 }
 
