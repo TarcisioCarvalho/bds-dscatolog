@@ -1,4 +1,4 @@
-import NavBar from "components/Navbar";
+import Home from "pages/Home/Home";
 import "../src/css/custom.scss";
 import "./App.css";
 
@@ -6,8 +6,7 @@ function App() {
   return (
 
     <>
-    <NavBar/>
-    <h1>DsMeta DSCatalog</h1>
+    <Home/>
     </>
   );
 }
